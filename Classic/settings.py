@@ -11,11 +11,11 @@ send_screenshot_hotkeys = [
 
 stop_hotkeys = [
     [keyboard.Key.pause],
-    [keyboard.Key.pause.shift, keyboard.KeyCode(char='C')]
+    [keyboard.Key.shift, keyboard.KeyCode(char='C')]
 ]
 
 send_text_hotkeys = {
-    (keyboard.Key.pause.shift, keyboard.KeyCode(char='!')): "Привет",
-    (keyboard.Key.pause.shift, keyboard.KeyCode(char='@')): "Пока",
+    (keyboard.Key.shift, keyboard.KeyCode(char='!')): "Привет",
+    (keyboard.Key.shift, keyboard.KeyCode(char='@')): "Пока",
 }
 
