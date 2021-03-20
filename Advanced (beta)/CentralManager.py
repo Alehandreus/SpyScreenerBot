@@ -27,7 +27,7 @@ class SendScreenCommand:
 
 class CentralManager:
     def __init__(self, chat_id, token):
-        token = '1453574410:AAE3xk-8w5PZZALLKoTcaL1qrGxiPUEQEcM'
+        token = '?'
         telebot_sender = TelebotSender(token, chat_id)
 
         self.commands = [
