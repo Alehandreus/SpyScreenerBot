@@ -22,4 +22,4 @@
 - библиотеки:
     - pynput (отслеживание нажатых клавиш)
     - pyautogui (скриншот)
-    - telebot (pyTelegramBotAPI) (telegram бот)
+    - telebot (use pyTelegramBotAPI when you install) (telegram bot)
