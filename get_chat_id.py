@@ -1,10 +1,10 @@
 import telebot
 
 
-token = input("Токен бота:\n")
+token = input("Bot Token:\n")
 bot = telebot.AsyncTeleBot(token)
 print()
-print("Напишите боту в любом чате")
+print("Send any message to your bot")
 
 
 @bot.message_handler(content_types=["text"])
