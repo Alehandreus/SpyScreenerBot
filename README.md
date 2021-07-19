@@ -1,6 +1,7 @@
 # SpyScreenerBot
 
-Сперва необходимо создать бота при помощи BotFather в Telegram
+Сперва необходимо создать бота при помощи BotFather в Telegram (https://core.telegram.org/bots/#3-how-do-i-create-a-bot).  
+Этот бот будет отправлять сообщения.
 
 ## Classic
 
