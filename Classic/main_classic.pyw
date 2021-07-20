@@ -24,6 +24,7 @@ def on_press(key):
                     sleep(0.1)
                     print("Screenshot sent")
                 delete_screenshot()
+                current.clear()
 
         for hotkey in stop_hotkeys:
             if all(k in current for k in hotkey):
@@ -34,6 +35,7 @@ def on_press(key):
             if all(k in current for k in hotkey):
                 bot.send_message(chat_id, text)
                 print("Message sent")
+                current.clear()
 
     except Exception as ex:
         print("ex")
